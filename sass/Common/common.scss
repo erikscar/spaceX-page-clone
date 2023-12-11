@@ -1,0 +1,24 @@
+.footer {
+  background-color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 3rem;
+}
+
+.topLogo {
+  width: 20rem;
+}
+.arrowDown {
+  width: 10rem;
+}
+
+@media(max-width: 320px) {
+  .topLogo {
+    width: 15rem;
+  }
+}
+@media(max-width: 1000px)  {
+  .footer {
+    text-align: center;
+  }
+}

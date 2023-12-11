@@ -1,11 +1,13 @@
-@import "./Variables/Mixin.scss";
+* {
+  overflow-x: hidden;
+}
 
-@import "./Common/logo-arrow.scss";
+@import "./Mixin/Mixin.scss";
 
-@import "./Common/footer.scss";
+@import "./Common/common.scss";
 
-@import "./home.scss";
+@import "./pages/home.scss";
 
-@import "./falcon9.scss";
+@import "./pages/falcon9.scss";
 
-@import "./humanSpaceFlight.scss";
+@import "./pages/humanSpaceFlight.scss";
