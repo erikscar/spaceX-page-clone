@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="src/imgs/favicon.ico" type="image/x-icon">
+
+  <!--Bootstrap Icons-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+  <!--Bootstrap CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+  <!--Main CSS-->
+  <link rel="stylesheet" href="./styles/style.css">
+
+  <!--CSS Animation Lib-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <title>SpaceX - Home</title>
+</head>
+
+<body class="text-light">
+  <!--Disclaimer Modal-->
+  <div class="modal fade show" id="myModal" role="dialog" tabindex="-1">
+    <div class="modal-dialog ">
+      <div class="modal-content bg-dark">
+        <div class="modal-header">
+          <h6 class="modal-title text-center">Aviso Legal: Projeto Clone SpaceX para Fins Educacionais</h6>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Este site é um projeto pessoal criado para fins de estudo, não pretendendo violar direitos autorais ou
+            propriedade intelectual da SpaceX ou qualquer outra entidade.</p>
+          <p>O conteúdo é usado estritamente para fins educativos, não sendo uma reprodução exata da SpaceX. Quaisquer
+            referências são meramente ilustrativas e não implicam afiliação ou endosso.</p>
+          <p>O criador respeita os direitos autorais de terceiros. Se houver preocupações, entre em contato para
+            resolução. Este projeto não possui fins lucrativos, visando apenas aprimorar habilidades técnicas e promover
+            a
+            compreensão do desenvolvimento web e design.</p>
+          <p>Agradeço a sua compreensão!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid container01">
+    <!--Navbar-->
+    <div class="container pb-5">
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+          <div class="container-fluid">
+            <a class="navbar-brand"><img src="./src/imgs/home/spaceXLogo.png" class="topLogo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav ">
+              <ul class="navbar-nav mt-5 h6">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./falcon9.html">FALCON 9</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="./humanSpaceFlight.html">HUMAN SPACE
+                    FLIGHT</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    </div>
+
+    <!--First Content-->
+    <div class="container mt-5 pt-5" data-aos="fade-up" data-aos-duration="2000">
+      <h5>LANÇAMENTO A CAMINHO</h5>
+      <h1>MISSÃO EQUIPE-3</h1>
+      <button type="button" class="btn btn-outline-light px-5 py-3 mt-5">SAIBA MAIS</button>
+    </div>
+
+    <div class="container-fluid text-center mt-5">
+      <img src="src/imgs/home/arrowDown.gif" class="arrowDown">
+    </div>
+  </div>
+
+  <!--Second Content-->
+  <div class="container-fluid container02">
+    <div class="container pt-5" data-aos="fade-right" data-aos-duration="2000">
+      <h5>MISSÃO CONCLUÍDA</h5>
+      <h1>MISSÃO EQUIPE-2</h1>
+      <h1>RETORNOU À TERRA</h1>
+      <button type="button" class="btn btn-outline-light px-5 py-3 mt-5">SAIBA MAIS</button>
+    </div>
+  </div>
+
+  <!--Third Content-->
+  <div class="container-fluid container03">
+    <div class="container pt-5" data-aos="fade-up" data-aos-duration="2000">
+      <h5>MISSÃO CONCLUÍDA</h5>
+      <h1>MISSÃO EQUIPE-2</h1>
+      <h1>RETORNOU A TERRA</h1>
+      <button type="button" class="btn btn-outline-light px-5 py-3 mt-5">SAIBA MAIS</button>
+    </div>
+  </div>
+
+  <!--Fourth Content-->
+  <div class="container-fluid container04">
+    <div class="container pt-5 text-center" data-aos="fade-left" data-aos-duration="2000">
+      <h1 class="bg-dark">STARSHIP ENTREGA ASTRONAUTAS DA NASA NA LUA</h1>
+      <button type="button" class="btn btn-outline-light px-5 py-3 mt-5">SAIBA MAIS</button>
+    </div>
+  </div>
+
+  <!--Footer-->
+  <footer class="footer container-fluid d-flex justify-content-center">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+      <div class="container-fluid ">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.spacex.com/">SpaceX &copy; 2023</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active">Made With <i class="bi bi-heart"></i> by: Erik Scarcela Araujo</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page"
+              href="https://www.linkedin.com/in/erik-scarcela-ara%C3%BAjo-2517a2225/"><i class="bi bi-linkedin"></i>
+              LinkedIn</a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link active" aria-current="page" href="https://github.com/erikscar"><i
+                class="bi bi-github"></i> GitHub</a>
+          </li>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </footer>
+
+  <!--Boostrap Script-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <!--Script Animation Lib-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!--Main Script-->
+  <script src="index.js"></script>
+</body>
+
+</html>

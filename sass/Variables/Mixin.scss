@@ -1,0 +1,7 @@
+@mixin background($background-image, $background-size, $background-repeat, $background-position, $min-height) {
+  background-image: $background-image;
+  background-size: $background-size;
+  background-repeat: $background-repeat;
+  background-position: $background-position;
+  min-height: $min-height;
+}

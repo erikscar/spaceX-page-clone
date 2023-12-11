@@ -1,0 +1,55 @@
+.container09 {
+  @include background(url("../src/imgs/humanSpaceFlight/01.jpg"), cover,  no-repeat, center, 100vh);
+  .main-title {
+    padding-top: 12rem;
+    font-size: 8rem;
+  }
+  .main-description {
+    font-size: 2rem;
+  }
+}
+
+.container10 {
+  background-color: #000;
+
+  .earth-desc {
+    font-size: 1.5rem;
+    width: 55rem;
+  }
+}
+
+.right-content {
+  padding-left: 48%;
+  padding-top: 18%;
+}
+
+.left-content {
+  padding-left: 10%;
+  padding-top: 18%;
+}
+
+.content-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.container11 {
+  @include background(url("../src/imgs/humanSpaceFlight/02.jpg"), cover,  no-repeat, center, 100vh);
+}
+
+.container12 {
+  @include background(url("../src/imgs/humanSpaceFlight/03.jpg"), cover,  no-repeat, center, 100vh);
+}
+
+.container13 {
+  @include background(url("../src/imgs/humanSpaceFlight/04.jpg"), cover,  no-repeat, center, 100vh);
+}
+
+.container14 {
+  @include background(url("../src/imgs/humanSpaceFlight/05.jpg"), cover,  no-repeat, center, 100vh);
+}
+
+.container15 {
+    background-color: #000;
+    min-height: 85vh;
+    padding-top: 20rem;
+}

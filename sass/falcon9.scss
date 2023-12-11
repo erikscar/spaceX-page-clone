@@ -1,0 +1,45 @@
+.container05 {
+    @include background(url("../src/imgs/falcon9/01.jpg"), cover,  no-repeat, center, 100vh);
+}
+.main-title {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.container06 {
+    @include background(url("../src/imgs/falcon9/02.jpg"), cover,  no-repeat, center, 100vh);
+    .number {
+        font-size: 90px;
+        margin: 0 8rem
+    }
+    .text {
+        width: 50rem;
+        font-size: 1.5rem;
+        line-height: 3rem;
+    }
+
+}
+.content-table {
+    width: 47rem;
+    padding: 6.5rem 8rem;
+    margin: 3.3rem
+}
+
+.container07 {
+    @include background(url("../src/imgs/falcon9/08.jpg"), cover,  no-repeat, center, 100vh);
+}
+
+.carouselSlide {
+    img {
+      height: 100vh;
+    }
+    .carouselCaption {
+        background-color: #000;
+    }
+}
+
+.container08 {
+    background-color: #000;
+    min-height: 85vh;
+    padding-top: 20rem;
+}

@@ -1,0 +1,26 @@
+.modal-header {
+    border-bottom: 2px solid #000;
+}
+.modal-footer{
+    border: none;
+}
+
+.container01 {
+    @include background(url("../src/imgs/home/01.jpg"), cover, no-repeat, center, 100vh);
+}
+
+.container02 {
+    @include background(url("../src/imgs/home/03.jpg"), cover, no-repeat, center, 100vh);
+    padding-top: 9rem;
+}
+
+.container03 {
+    @include background(url("../src/videos/02.gif"), cover, no-repeat, center, 100vh);
+    padding-top: 9rem;
+}
+
+.container04 {
+    @include background(url("../src/imgs/home/04.jpg"), cover, no-repeat, center, 100vh);
+    padding-top: 9rem;
+}
+
